@@ -1,13 +1,13 @@
-import React from 'react'
-import './VideoPlayer.css'
-import video from '../../assets/college-video.mp4'
+import React from 'react';
+import './VideoPlayer.css';
+import video from '../../assets/college-video.mp4';
+
 const VideoPlayer = () => {
-    
   return (
-    <div className='vido-player hide'>
-       <video src={video} autoPlay muted controls></video>
+    <div className="video-player hide">  {/* Fixed the className typo */}
+      <video src={video} autoPlay muted controls />
     </div>
-  )
+  );
 }
 
-export default VideoPlayer
+export default VideoPlayer;
