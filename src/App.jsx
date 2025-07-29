@@ -10,12 +10,10 @@ import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
 const App = () => {
-  return (
 
-    const [playState,setPlayState] = useState(false){
 
-    }
-
+    const [playState,setPlayState] = useState(false);
+    return (
     <div>
       <Navbar/>
       <Hero/>
